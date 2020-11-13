@@ -1,0 +1,99 @@
+#!/bin/bash
+
+read -p "Enter directory name: " PROJPATH
+read -p "Enter file name: " FILENAME
+
+BASEPATH="/home/ta/CPSC3343/"
+SOURCEPATH=$BASEPATH$PROJPATH$FILENAME
+
+STUDENT="/home/azuaje/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/folgmann/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDEN
+chmod -R 777 $STUDENT
+
+STUDENT="/home/giovanelli/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/jasper/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/marchi/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/neilson/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/thind/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/walton/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/wright/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/champlin/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/gealy/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/jager/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/lee/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/moore/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/tucker/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/walker/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/walker/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+STUDENT="/home/ward/${PROJPATH}"
+mkdir $STUDENT
+cp $SOURCEPATH $STUDENT
+chmod -R 777 $STUDENT
+
+echo "all done!"
